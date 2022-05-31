@@ -1,0 +1,69 @@
+nav{
+    background-color: black;
+}
+
+nav li a{
+    font-size: 20px;
+    color: goldenrod;
+}
+
+#div1{
+    padding-left: 35%;
+}
+
+#div2{
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+#div3{
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+#div4{
+    text-align: center;
+}
+
+#addBtn{
+    color: goldenrod;
+}
+
+#clearBtn{
+    color: goldenrod;
+}
+
+#quizName{
+    background-color: rgb(216, 170, 240);
+}
+
+#question{
+    background-color: rgb(216, 170, 240);
+}
+
+#optionA{
+    background-color: rgb(216, 170, 240);
+}
+
+#optionB{
+    background-color: rgb(216, 170, 240);
+}
+
+#optionC{
+    background-color: rgb(216, 170, 240);
+}
+
+#optionD{
+    background-color: rgb(216, 170, 240);
+}
+
+#div5{
+    margin-top: 40px;
+}
+
+#div6{
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    font-size: 20px;
+}

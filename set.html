@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Set Quiz</title>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+        <link rel="stylesheet" href="set.css">
+    </head>
+
+    <body onload="getCurrentQuiz()">
+        <nav class="navbar navbar-expand-md fixed-top pb-2 pt-1">
+            <div id="div1">
+                <ul class="navbar-nav">
+                    <li class="nav-item mr-5 ml-5"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item mr-5"><a class="nav-link" href="set.html">Set Quiz</a></li>
+                    <li class="nav-item mr-5"><a class="nav-link" href="take.html">Take Quiz</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <div class="container mt-5 p-5">
+            <div id="div2">
+                <p>Name of Quiz</p>
+                <input type="text" placeholder=" enter name of quiz" id="quizName">
+            </div>
+            
+            <div class="row" id="div3">
+                <div class="col-6" id="questionDiv">
+                    <p>Questions</p>
+                    <input style="height: 100px; width: 300px" id="question" placeholder=" type in your questions">
+                </div>
+                <div class="col-6" id="optionsDiv">
+                    <p>Options</p>
+                    <input id="optionA"><br>
+                    <input id="optionB"><br>
+                    <input id="optionC" placeholder=" correct answer"><br>
+                    <input id="optionD">
+                </div>
+            </div>
+
+            <div class="row mt-4" id="div4">
+                <div class="col-6">
+                    <button class="btn btn-success" onclick="addQuiz()" id="addBtn">Add Quiz</button>
+                </div>
+
+                <div class="col-6">
+                    <button class="btn btn-danger" onclick="clearQuiz()" id="clearBtn">Clear Quiz</button>
+                </div>
+            </div>
+
+            <div id="quiz5">
+               <div id="div6"></div> 
+               <div id="quizDiv"></div> 
+            </div>
+
+        </div>
+
+        <script src="set.js"></script>
+    </body>
+</html>

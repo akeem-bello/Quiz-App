@@ -1,0 +1,23 @@
+nav{
+    background-color: black;
+}
+
+nav li a{
+    font-size: 20px;
+    color: goldenrod;
+}
+
+#div1{
+    margin-top: 55px;
+    background-color: black;
+    padding: 22%;
+    text-align: center;
+}
+
+#div2{
+    padding-left: 35%;
+}
+
+h2{
+    color: goldenrod;
+}

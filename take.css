@@ -1,0 +1,21 @@
+nav{
+    background-color: black;
+}
+
+nav li a{
+    font-size: 20px;
+    color: goldenrod;
+}
+
+#div1{
+    padding-left: 35%;
+}
+
+#div4{
+    text-align: center;
+}
+
+#div6{
+    text-align: center;
+    margin-top: 20px;
+}

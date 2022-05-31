@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="take.css">
+    <title>Take Quiz</title>
+</head>
+<body onload="takeQuiz(), callDuration(), callSubmit()">
+    <nav class="navbar navbar-expand-md fixed-top pb-2 pt-1">
+        <div id="div1">
+            <ul class="navbar-nav">
+                <li class="nav-item mr-5 ml-5"><a class="nav-link" href="index.html">Home</a></li>
+                <li class="nav-item mr-5"><a class="nav-link" href="set.html">Set Quiz</a></li>
+                <li class="nav-item mr-5"><a class="nav-link" href="take.html">Take Quiz</a></li>
+            </ul>
+        </div>
+    </nav> 
+
+    <div id="div2">
+        <div class="container mt-5 p-5">
+            <h1><code id="minuteSpan">01</code><code>:</code><code id="secondsSpan">00</code></h1>
+            <div id="div4"></div>
+            <div id="div5"></div>
+            <div id="div6">
+                <button onclick="submitQuiz()" class="btn btn-primary">Submit</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="take.js"></script>
+</body>
+</html>
